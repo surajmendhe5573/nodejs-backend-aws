@@ -9,6 +9,10 @@ app.get("/home", (req, res) => {
   res.send("This is home page !");
 });
 
+app.get("/contact", (req, res) => {
+  res.send("This is contact page !");
+});
+
 // Start server
 app.listen(3000, () => {
   console.log(`Server is running on http://localhost:${3000}`);
